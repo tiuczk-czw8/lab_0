@@ -8,8 +8,10 @@ public class TailsGenerator {
     public List<String> tails(String value) {
         List<String> list = new ArrayList<String>();
         list.add(value);
-        while(value.length()>0) {
-        	value = value.substring(0,value.length()-1);
+        
+        while(value.length() >0) {
+        	value = value.substring(1);
+        	//System.out.println(value);
         	list.add(value);
         }
         return list;
