@@ -7,6 +7,7 @@ public class TailsGenerator {
 
     public List<String> tails(String value) {
         List<String> tailsList = new ArrayList<>();
+        tailsList.add(value)
         return tailsList;
     }
 
