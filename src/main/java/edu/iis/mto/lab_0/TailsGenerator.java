@@ -11,7 +11,6 @@ public class TailsGenerator {
         
         while(value.length() >0) {
         	value = value.substring(1);
-        	//System.out.println(value);
         	list.add(value);
         }
         return list;
