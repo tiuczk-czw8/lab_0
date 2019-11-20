@@ -13,7 +13,7 @@ public class TailsGenerator {
             list.add(list.get(i-1).substring(1));
             System.out.println(list.get(i));
         }
-        
+
         return list;
     }
 
